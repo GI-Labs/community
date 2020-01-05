@@ -1,0 +1,16 @@
+body {
+	background-image: URL(http://127.0.0.1:8080/ipfs/QmNyAGu1cymwVcmoBocGGXuc7stshmftHiJJAMjGjbmMvR/img/bgcity.jpg);
+	background-size: cover, contain;
+}
+
+h1,h2 {
+ color: darkred;
+}
+.content {
+  max-width: 90%;
+  padding: 0.8rem;
+  margin: auto;
+  background-color: lightyellow;
+  opacity: 0.90;
+}
+
