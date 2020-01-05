@@ -1,0 +1,6 @@
+# voter.gq: zone.csv
+voter.gq,*,NS,3600,ns01.freenom.com
+voter.gq,_expires,TXT,3600,2020-02-06
+voter.gq,@,A,86400,104.198.14.52
+voter.gq,www,CNAME,86400,voter.netlify.com
+voter.gq,netname,TXT,86400,focused-noether-0cfcc3

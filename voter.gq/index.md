@@ -25,6 +25,11 @@ correct your vote if necessary to avoid a political catastrophy!
 
 and make your vote "useful" 
 
+
+## Read more on our GitHub :
+
+ <https://github.com/General-Interest>
+
 [1]: {{site.search}}="gradual+quanta"
 [2]: {{site.search}}=!g+eco-social+blockchains+site:.ml
 [3]: {{site.search}}=!g+Sybil+attack+and+corruption
