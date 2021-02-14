@@ -1,0 +1,19 @@
+---
+---
+<html>
+<head>
+<title>Index of {{page.url | absolute_url }}</title>
+{%- assign data = site.data -%}
+<style>
+th {text-align: left;}
+</style>
+</head>
+<body>
+<h1>Index of {{page.url | absolute_url }}</h1>
+<pre><table cellpadding="0">
+<tr><th><a href="?nd">Name</a></th><th><a data-href="?dd">Modified</a></th><th><a data-href="?sd">Size</a></th></tr><tr><td colspan="3"><hr></td></tr>
+<tr><td><a href="..">Parent directory</a></td><td>&nbsp;-</td><td>&nbsp;&nbsp;-</td></tr>
+{% for file in data.directory.index %}
+<tr><td><a href="{{file.url}}">{{file.name}}</a></td><td>&nbsp;{{file.mdate}}</td><td>&nbsp;&nbsp;{{file.size}}</td></tr>
+{% endfor %}
+</table></pre></body></html>
